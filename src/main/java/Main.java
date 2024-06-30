@@ -19,7 +19,7 @@ public class Main {
             sdl.open(af);
             sdl.start();
 
-            final int msec = 2;
+            final int msec = 2_000;
             final double hz = 3000.0;
 
             byte[] buf = new byte[1];
